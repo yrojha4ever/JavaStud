@@ -1,6 +1,6 @@
 # JavaStud
 This is java tutorial example series.
-'''
+```
 ---------------------------------------------
 Assignment 1: http://www.ctae.ac.in/images/editorFiles/file/Lab%20Solutions%20of%20CSE_IT/java.pdf
 1. Write a program to find sum and average of N number using command line argument.
@@ -24,4 +24,4 @@ Assignment 1: http://www.ctae.ac.in/images/editorFiles/file/Lab%20Solutions%20of
 </body>
 </html>
 ---------------------------------------------
-'''
+```
