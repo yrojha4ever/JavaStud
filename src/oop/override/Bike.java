@@ -7,10 +7,17 @@ public class Bike extends Vehicle {
 		System.out.println("Bike is Running!");
 
 	}
+	
+	public void runSup(){
+		super.run( );
+	}
 
 	public static void main(String[] args) {
 		Bike bike = new Bike();
 		bike.run();
+		bike.runSup();
+		
+		super.run( );
 	}
 
 }

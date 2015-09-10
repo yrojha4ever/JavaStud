@@ -1,29 +1,30 @@
 package oop.inheritence;
 
 public class Car extends Vehicle {
-	private int cc;
-	private int gears;
+	private int	cc;
+	private int	gears;
 
-	public void attributesCar() {
+	public void attributesCar( ) {
 		// The subclass refers to the members of the superclass
 
 		// System.out.println("Color of Car : " + color); //ERROR:private
 		// field:color
 
-		System.out.println("Speed of Car : " + super.speed); // super.speed or
+		System.out.println( "Speed of Car : " + super.speed ); // super.speed or
 																// speed
 
-		System.out.println("Size of Car : " + size);
+		System.out.println( "Size of Car : " + size );
 
-		System.out.println("CC of Car : " + cc);
-		System.out.println("No of gears of Car : " + gears);
+		System.out.println( "CC of Car : " + cc );
+		System.out.println( "No of gears of Car : " + gears );
 
-		super.attributes(); // WE CAN USE Super in any non static method.
+		super.attributes( ); // WE CAN USE Super in any non static method.
 	}
+	
 
-	public static void main(String[] args) {
+	public static void main( String[] args ) {
 
-		Car c1 = new Car();
+		Car c1 = new Car( );
 
 		// c1.color = "Blue"; //ERROR: private field:color
 
@@ -32,11 +33,11 @@ public class Car extends Vehicle {
 		c1.cc = 1000;
 		c1.gears = 5;
 
-		c1.attributes();
+		c1.attributes( );
 
 		// super.attributes(); //ERROR: Cannot use super in a static context
 
-		c1.attributesCar();
+		c1.attributesCar( );
 
 	}
 }
