@@ -1,6 +1,6 @@
 package str;
 
-public class StringTest {
+public class StringEqual {
 	public static void main(String[] args) {
 		String hel = "Hello".substring(0, 3); // Hel
 		System.out.println("String hel = " + hel);

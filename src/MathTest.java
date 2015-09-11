@@ -1,6 +1,3 @@
-package str;
-
-import java.math.RoundingMode;
 
 public class MathTest {
 	public static void main(String[] args) {

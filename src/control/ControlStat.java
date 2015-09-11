@@ -1,4 +1,4 @@
-package str;
+package control;
 
 public class ControlStat {
 

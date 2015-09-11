@@ -1,4 +1,4 @@
-package str;
+package pojo;
 
 public class StudentPojo {
 	public StudentPojo(){
