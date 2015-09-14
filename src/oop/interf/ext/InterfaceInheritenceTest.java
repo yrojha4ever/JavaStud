@@ -1,28 +1,6 @@
 package oop.interf.ext;
 
-interface Printable {
-	void print( );
-}
-
-interface Showable extends Printable {
-	void show( );
-}
-
-interface Readable {
-	int	noOfPeopRead	= 50;
-
-	void read( );
-}
-
 public class InterfaceInheritenceTest implements Showable, Readable {
-
-	// public int hashCode( ) {
-	// return 40;
-	// }
-
-	public String toString( ) {
-		return "InterfaceInheritenceTest is from tostring: " + Readable.noOfPeopRead;
-	}
 
 	public static void main( String[] args ) {
 
@@ -34,13 +12,15 @@ public class InterfaceInheritenceTest implements Showable, Readable {
 		// ---------
 		Showable sObj = new InterfaceInheritenceTest( );
 		sObj.print( );
-		// sObj.read( );
+		// sObj.read( ); //ERROR
 		sObj.show( );
+		( ( Readable ) sObj ).read( ); // OK
 		// ----------
 		Printable pObj = new InterfaceInheritenceTest( );
 		pObj.print( );
 		// pObj.read( );
 		// pObj.show( );
+		( ( Readable ) pObj ).read( );
 		( ( Showable ) pObj ).show( );
 		// ---------------
 		Readable rObj = new InterfaceInheritenceTest( );
@@ -49,9 +29,9 @@ public class InterfaceInheritenceTest implements Showable, Readable {
 		rObj.read( );
 		// rObj.show( );
 
-		// ------------
 		// Casting to another interface.
 		( ( Printable ) rObj ).print( );
+		( ( Showable ) rObj ).show( );
 
 	}
 
