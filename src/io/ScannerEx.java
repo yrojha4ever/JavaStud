@@ -8,7 +8,7 @@ public class ScannerEx {
 		System.out.print("Write Something in console window: ");
 		Scanner sc = new Scanner(System.in);
 		
-		String inputText = sc.next();//take input value
+		String inputText = sc.nextLine();//take input value
 		System.out.println(inputText);
 		
 		int a = sc.nextInt();

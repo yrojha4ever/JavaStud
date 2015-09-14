@@ -9,8 +9,8 @@ public class InterfaceImplTest {
 		NicAsia na = new NicAsia( );
 		printBankInfo( na.getBankName( ), na.getRate( ), Bank.serviceChargeRate );
 
-		StandChart sc = new StandChart( );
-		printBankInfo( sc.getBankName( ), sc.getRate( ), Bank.serviceChargeRate );
+		Bank sc = new StandChart( );
+		printBankInfo( sc.getBankName( ), sc.getRate( ), sc.serviceChargeRate );
 
 	}
 
