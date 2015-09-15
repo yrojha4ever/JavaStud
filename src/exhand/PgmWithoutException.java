@@ -1,4 +1,4 @@
-package exc;
+package exhand;
 
 public class PgmWithoutException {
 

@@ -16,5 +16,12 @@ public class Scope {
 		// y = 100
 
 		System.out.println( "x is: " + x );
+
+		if ( 30 > 40 ) {
+			System.out.println( "10 is greater then 9" );
+		} else {
+			System.out.println( "10 is not greatr then 9" );
+		}
+
 	}
 }
