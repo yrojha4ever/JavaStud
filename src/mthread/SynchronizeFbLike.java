@@ -12,7 +12,6 @@ public class SynchronizeFbLike {
 				everestFbPagePiclike.plusOne( );
 			}
 		};
-
 		Thread user2 = new Thread( ) {
 			public void run( ) {
 				everestFbPagePiclike.plusOne( );
