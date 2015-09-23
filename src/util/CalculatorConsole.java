@@ -3,7 +3,7 @@ package util;
 import java.util.Scanner;
 
 /**
- * Sample Calculator without precedencide check.
+ * Sample Calculator without precedence check.
  * 
  * @author ojhay
  * 
