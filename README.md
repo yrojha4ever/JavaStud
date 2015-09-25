@@ -1,7 +1,7 @@
 # JavaStud
 This is java tutorial example series.
 
-Java Tutorial:<br/>
+Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
 [1.Introduction:](https://drive.google.com/open?id=0B3_WIs_SGCRzbDdKbTVoZHZUMGs)<br/>
 [2.OOP:](https://drive.google.com/open?id=0B3_WIs_SGCRzZHk2MmNsVkxqa1U)<br/>
 [3.Exception Handling,Inner Class, Date Time, Joda time, Reflection:] (https://drive.google.com/open?id=0B3_WIs_SGCRzdkk1WGpGSGxMdU0)<br/>
