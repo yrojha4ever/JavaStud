@@ -47,7 +47,16 @@ Assignment 2: Src: http://www.scribd.com/doc/68627280/Java-Lab-Test-Final-Questi
 9.Write a program that reads following information -> Employee’s name, number of hours worked in week, hourly pay rate, tax (20%) with-holding from user and prints a payroll statement with employee’s details.
 10.Write a program that reads in investment amount, annual interest rate and number of years. Display the future investment value of the person.
 11.Write a program that calculates the energy needed to heat water from an initialtemperature to final temperature. Your program should prompt the user to enter the amount of water in kg and initial and final temperature of water.
-12.Write a program that displays the following table (5 IN ROW):a b pow(a,b)a b pow(a,b)---------------------------------------------------------------1 2 16 7 ______ 2 3 87 8 _________ 3 4 818 9 ______ 4 59 105 610 11
+12.Write a program that displays the following table (5 IN ROW):
+
+a b pow(a,b)     a b pow(a,b)
+---------------------------------------------------------------
+1 2 1            6 7   ______ 
+2 3 8            7 8   ______
+3 4 81           8 9   ______ 
+4 5              9 10  ______
+5 6              10 11 ______
+
 13.Write a program to calculate leap year.
 14.Write a program that reads an integer and checks whether it is even, odd or primenumber, print the same as output.
 15.Write a program which sorts given numbers, which is provided by user.
