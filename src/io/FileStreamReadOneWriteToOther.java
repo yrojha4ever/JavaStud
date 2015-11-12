@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 /**
- * Copye content of one file to another.
+ * Copy content of one file to another.
  * @author ojhay
  */
 public class FileStreamReadOneWriteToOther {

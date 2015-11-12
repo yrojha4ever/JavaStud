@@ -5,39 +5,22 @@ public class Car extends Vehicle {
 	private int	gears;
 
 	public void attributesCar( ) {
-		// The subclass refers to the members of the superclass
+		System.out.println( "Color : " + getColor( ) );
+		System.out.println( "Speed : " + speed ); // super.speed or speed
+		System.out.println( "Size : " + size );
 
-		// System.out.println("Color of Car : " + color); //ERROR:private
-		// field:color
-
-		System.out.println( "Speed of Car : " + super.speed ); // super.speed or
-																// speed
-
-		System.out.println( "Size of Car : " + size );
-
-		System.out.println( "CC of Car : " + cc );
-		System.out.println( "No of gears of Car : " + gears );
-
-		super.attributes( ); // WE CAN USE Super in any non static method.
+		System.out.println( "CC: " + this.cc ); // this.cc or cc
+		System.out.println( "Gears: " + gears );
 	}
-	
 
 	public static void main( String[] args ) {
-
 		Car c1 = new Car( );
-
-		// c1.color = "Blue"; //ERROR: private field:color
-
-		c1.speed = 200;
-		c1.size = 22;
 		c1.cc = 1000;
 		c1.gears = 5;
-
-		c1.attributes( );
-
-		// super.attributes(); //ERROR: Cannot use super in a static context
+		c1.setVehicleProp( "RED", 80, 500 );
 
 		c1.attributesCar( );
 
+		System.out.println( c1.getColor( ) );
 	}
 }

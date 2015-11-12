@@ -1,40 +1,42 @@
 package mthread;
 
 public class ThreadJoinCalcTanx {
-	static double	sin45;
-	static double	cos45;
+	private double	sin45;
+	private double	cos45;
 
 	public static void main( String[] args ) {
 
-		Runnable sinx = new Runnable( ) {
+		final ThreadJoinCalcTanx obj = new ThreadJoinCalcTanx( );
+
+		Runnable sin45r = new Runnable( ) {
 			@Override
 			public void run( ) {
-				sin45 = Math.sin( Math.PI / 4 );
+				obj.sin45 = Math.sin( Math.PI / 4 );
 			}
 		};
+		
+		Thread sin45t = new Thread( sin45r );
+		sin45t.start( );
 
-		Runnable cosx = new Runnable( ) {
+		Runnable cos45r = new Runnable( ) {
 			@Override
 			public void run( ) {
-				cos45 = Math.cos( Math.PI / 4 );
+				obj.cos45 = Math.cos( Math.PI / 4 );
 			}
 		};
-
-		Thread sin30T = new Thread( sinx );
-		sin30T.start( );
-
-		Thread con30T = new Thread( cosx );
-		con30T.start( );
+		
+		Thread cos45t = new Thread( cos45r );
+		cos45t.start( );
 
 		try {
-			sin30T.join( );
-			con30T.join( );
+			sin45t.join( );
+			cos45t.join( );
 		} catch ( InterruptedException e ) {
 			e.printStackTrace( );
 		}
 
-		double tan45 = Math.round( sin45 / cos45 );
-		System.out.println( tan45 ); // Nan:0.0 / 0.0;Infinity:5.0 / 0.0
+		double tan45 = Math.round( obj.sin45 / obj.cos45 );
+		System.out.println( "Tan45: " + tan45 ); // Nan:0.0 / 0.0;Infinity:5.0 / 0.0
 
 	}
 }

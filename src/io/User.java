@@ -4,11 +4,11 @@ import java.io.Serializable;
 
 public class User implements Serializable {
 
-	private static final long	serialVersionUID	= 6392483654526540237L;
+	private static final long	serialVersionUID	= -8986612101553037402L;
 
-	private int					id;										// transient
+	private int					id;	// transient
 
-	private String				name;
+	private transient String	name;
 
 	public User( int id, String name ) {
 		this.id = id;

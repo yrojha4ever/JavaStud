@@ -6,21 +6,39 @@ public class CustomExceptionTest {
 	public static void main( String[] args ) {
 
 		Scanner sc = null;
-		CustomExceptionTest obj = new CustomExceptionTest( );
 
+		CustomExceptionTest obj = new CustomExceptionTest( );
 		try {
-			System.out.print( "Enter your Age: " );
+
 			sc = new Scanner( System.in );
 
-			obj.checkEligibleAgeForVote( sc.nextInt( ) );
+			System.out.println( "Enter your Age: " );
+			int age = sc.nextInt( );
 
+			obj.checkEligibleAgeForVote( age );
 		} catch ( InvalidAgeException e ) {
 			e.printStackTrace( );
 
 		} finally {
 			sc.close( );
-			System.out.println( "Resource Closed." );
 		}
+
+		// Scanner sc = null;
+		// try {
+		// System.out.print( "Enter your Age: " );
+		// sc = new Scanner( System.in );
+		//
+		// CustomExceptionTest obj = new CustomExceptionTest( );
+		// int age = sc.nextInt( );
+		// obj.checkEligibleAgeForVote( age );
+		//
+		// } catch ( InvalidAgeException e ) {
+		// e.printStackTrace( );
+		//
+		// } finally {
+		// sc.close( );
+		// System.out.println( "Resource Closed." );
+		// }
 	}
 
 	public void checkEligibleAgeForVote( int age ) throws InvalidAgeException {

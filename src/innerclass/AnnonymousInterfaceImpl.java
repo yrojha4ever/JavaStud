@@ -9,8 +9,15 @@ public class AnnonymousInterfaceImpl {
 				System.out.println( "I am eating.." );
 			}
 		};
-
 		e.eat( );
+
+		new Eatable( ) {
+			@Override
+			public void eat( ) {
+				System.out.println( "No Object Name: Eating.." );
+			}
+		}.eat( );
+
 	}
 }
 

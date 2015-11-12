@@ -28,7 +28,7 @@ public class SynchronizeFbLike {
 			}
 		};
 
-		/* User1,2,3,4 hit like in Everest Facebook Page */
+		/* User1,2,3,4 hit like button in Everest Facebook Page */
 		user1.start( );
 		user2.start( );
 		user3.start( );

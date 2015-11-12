@@ -10,10 +10,10 @@ public class EmployeeOuter {
 	}
 
 	public static void main( String[] args ) {
-		EmployeeOuter employee = new EmployeeOuter( 100, "Bill Gate" );
-
-		AddressInner address = employee.new AddressInner( "New York City", "New York", "00501", "USA" );
-		address.showProperties( );
+		 EmployeeOuter employee = new EmployeeOuter( 100, "Bill Gate" );
+		
+		 AddressInner address = employee.new AddressInner( "New York City", "New York", "00501", "USA" );
+		 address.showProperties( );
 	}
 
 	private class AddressInner {

@@ -2,6 +2,7 @@ package io;
 
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
+import java.util.Scanner;
 
 public class BufferedOutputStreamExample {
 	public static void main( String[] args ) {
@@ -9,7 +10,11 @@ public class BufferedOutputStreamExample {
 			FileOutputStream fout = new FileOutputStream( "D:\\bstud.txt" );
 			BufferedOutputStream bout = new BufferedOutputStream( fout );
 
-			String str = "Java developers of Nepal.\nRunning Chapter: File Handling, BufferedOutputStream";
+			System.out.println( "Type Text:" );
+			Scanner sc = new Scanner( System.in );
+			String str = sc.nextLine( );
+
+			// String str = "Java developers of Nepal.\nRunning Chapter: File Handling, BufferedOutputStream";
 			byte[] b = str.getBytes( );
 
 			bout.write( b );

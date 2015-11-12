@@ -13,6 +13,7 @@ public class OverloadingTypePromotionCalc {
 	public static void main(String args[]) {
 		OverloadingTypePromotionCalc obj = new OverloadingTypePromotionCalc();
 		obj.sum(20, 20);// now int arg sum() method gets invoked
+		obj.sum(50, 20);
 	}
 
 }

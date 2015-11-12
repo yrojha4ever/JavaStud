@@ -5,12 +5,15 @@ import java.io.FileNotFoundException;
 
 public class CompileTimeException {
 	public static void main( String[] args ) {
+
 		try {
-			FileInputStream fi = new FileInputStream( "C:\\temp.text" );
+			FileInputStream fi = new FileInputStream( "C:\\te234234mp.text" );
 		} catch ( FileNotFoundException e ) {
+			// System.err.println( e.getLocalizedMessage( ) );
 			e.printStackTrace( );
 		}
 
-		System.out.println( "Continue other operation here." );
+		System.out.println( "You can continue here." );
+
 	}
 }
