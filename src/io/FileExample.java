@@ -4,7 +4,6 @@ import java.io.File;
 
 public class FileExample {
 
-	@SuppressWarnings( "unused" )
 	public static void main( String[] args ) {
 
 		/* Instantiate File */
@@ -12,14 +11,18 @@ public class FileExample {
 
 		// Check if above path is Directory?
 		boolean isDirectory = file.isDirectory( );
+		System.out.println( "ab.txt is directory: " + isDirectory );
 
 		/* File exist of not */
 		boolean isFileExits = file.exists( );
 		System.out.println( "File is exist: " + isFileExits );
 
 		/* Create Directory */
-		File fDir = new File( "D:\\temp" );
+		File fDir = new File( "D:\\JavaStud" );
 		boolean dirCreated = fDir.mkdir( );
+		if ( dirCreated ) {
+			System.out.println( "JavaStud is successfully created." );
+		}
 
 		/* List name of all files */
 		String[] fileNames = fDir.list( );
