@@ -1,30 +1,25 @@
 package swing;
 
-import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.EventQueue;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JSplitPane;
-import javax.swing.JSeparator;
-import javax.swing.JLabel;
-import javax.swing.border.LineBorder;
-import java.awt.Color;
-import javax.swing.border.SoftBevelBorder;
-import javax.swing.border.BevelBorder;
-import javax.swing.border.TitledBorder;
-import javax.swing.UIManager;
-import javax.swing.JTextField;
-import javax.swing.JRadioButton;
 import javax.swing.JButton;
-import javax.swing.JTable;
-import javax.swing.table.DefaultTableModel;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
+import javax.swing.JSeparator;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.UIManager;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.TitledBorder;
+import javax.swing.table.DefaultTableModel;
 
 public class SwingComponets extends JFrame {
 
-	private JPanel	contentPane;
+	private JPanel contentPane;
 	private JPanel mainPanel;
 	private JPanel panel;
 	private JLabel nameLbl;
@@ -45,35 +40,37 @@ public class SwingComponets extends JFrame {
 	private JButton btnSave;
 	private JTable studTable;
 	private JScrollPane scrollPane;
+	private JSeparator separator;
 
 	/**
 	 * Launch the application.
 	 */
-	public static void main( String[] args ) {
-		EventQueue.invokeLater( new Runnable( ) {
-			public void run( ) {
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
 				try {
-					SwingComponets frame = new SwingComponets( );
-					frame.setVisible( true );
-				} catch ( Exception e ) {
-					e.printStackTrace( );
+					SwingComponets frame = new SwingComponets();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
 			}
-		} );
+		});
 	}
 
 	/**
 	 * Create the frame.
 	 */
-	public SwingComponets( ) {
-		setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-		setBounds( 100, 100, 714, 525 );
-		contentPane = new JPanel( );
-		contentPane.setBorder( new EmptyBorder( 5, 5, 5, 5 ) );
-		setContentPane( contentPane );
+	public SwingComponets() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 715, 461);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		contentPane.add(getMainPanel());
 	}
+
 	private JPanel getMainPanel() {
 		if (mainPanel == null) {
 			mainPanel = new JPanel();
@@ -81,13 +78,18 @@ public class SwingComponets extends JFrame {
 			mainPanel.setLayout(null);
 			mainPanel.add(getPanel());
 			mainPanel.add(getScrollPane());
+			mainPanel.add(getSeparator());
 		}
 		return mainPanel;
 	}
+
 	private JPanel getPanel() {
 		if (panel == null) {
 			panel = new JPanel();
-			panel.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Student Form", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 0, 0)));
+			panel.setBorder(new TitledBorder(UIManager
+					.getBorder("TitledBorder.border"), "Student Form",
+					TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0,
+							0, 0)));
 			panel.setBounds(10, 11, 678, 128);
 			panel.setLayout(null);
 			panel.add(getNameLbl());
@@ -107,6 +109,7 @@ public class SwingComponets extends JFrame {
 		}
 		return panel;
 	}
+
 	private JLabel getNameLbl() {
 		if (nameLbl == null) {
 			nameLbl = new JLabel("Name");
@@ -114,6 +117,7 @@ public class SwingComponets extends JFrame {
 		}
 		return nameLbl;
 	}
+
 	private JTextField getNameTxt() {
 		if (nameTxt == null) {
 			nameTxt = new JTextField();
@@ -122,6 +126,7 @@ public class SwingComponets extends JFrame {
 		}
 		return nameTxt;
 	}
+
 	private JLabel getLblRollNo() {
 		if (lblRollNo == null) {
 			lblRollNo = new JLabel("Roll No:");
@@ -129,6 +134,7 @@ public class SwingComponets extends JFrame {
 		}
 		return lblRollNo;
 	}
+
 	private JTextField getTextField() {
 		if (textField == null) {
 			textField = new JTextField();
@@ -137,6 +143,7 @@ public class SwingComponets extends JFrame {
 		}
 		return textField;
 	}
+
 	private JLabel getLblSubject() {
 		if (lblSubject == null) {
 			lblSubject = new JLabel("Semester");
@@ -144,6 +151,7 @@ public class SwingComponets extends JFrame {
 		}
 		return lblSubject;
 	}
+
 	private JTextField getTextField_1() {
 		if (textField_1 == null) {
 			textField_1 = new JTextField();
@@ -152,6 +160,7 @@ public class SwingComponets extends JFrame {
 		}
 		return textField_1;
 	}
+
 	private JLabel getLblFaculty() {
 		if (lblFaculty == null) {
 			lblFaculty = new JLabel("Faculty");
@@ -159,6 +168,7 @@ public class SwingComponets extends JFrame {
 		}
 		return lblFaculty;
 	}
+
 	private JTextField getTextField_2() {
 		if (textField_2 == null) {
 			textField_2 = new JTextField();
@@ -167,6 +177,7 @@ public class SwingComponets extends JFrame {
 		}
 		return textField_2;
 	}
+
 	private JLabel getLblBirthDate() {
 		if (lblBirthDate == null) {
 			lblBirthDate = new JLabel("Birth Date");
@@ -174,6 +185,7 @@ public class SwingComponets extends JFrame {
 		}
 		return lblBirthDate;
 	}
+
 	private JTextField getTextField_3() {
 		if (textField_3 == null) {
 			textField_3 = new JTextField();
@@ -182,6 +194,7 @@ public class SwingComponets extends JFrame {
 		}
 		return textField_3;
 	}
+
 	private JLabel getLblCollegeName() {
 		if (lblCollegeName == null) {
 			lblCollegeName = new JLabel("College Name");
@@ -189,6 +202,7 @@ public class SwingComponets extends JFrame {
 		}
 		return lblCollegeName;
 	}
+
 	private JTextField getTextField_4() {
 		if (textField_4 == null) {
 			textField_4 = new JTextField();
@@ -197,6 +211,7 @@ public class SwingComponets extends JFrame {
 		}
 		return textField_4;
 	}
+
 	private JRadioButton getRdbtnNewRadioButton() {
 		if (rdbtnNewRadioButton == null) {
 			rdbtnNewRadioButton = new JRadioButton("Male");
@@ -204,6 +219,7 @@ public class SwingComponets extends JFrame {
 		}
 		return rdbtnNewRadioButton;
 	}
+
 	private JRadioButton getRdbtnNewRadioButton_1() {
 		if (rdbtnNewRadioButton_1 == null) {
 			rdbtnNewRadioButton_1 = new JRadioButton("Female");
@@ -211,10 +227,12 @@ public class SwingComponets extends JFrame {
 		}
 		return rdbtnNewRadioButton_1;
 	}
+
 	private JPanel getSexPanel() {
 		if (sexPanel == null) {
 			sexPanel = new JPanel();
-			sexPanel.setBorder(new TitledBorder(null, "Sex", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+			sexPanel.setBorder(new TitledBorder(null, "Sex",
+					TitledBorder.LEADING, TitledBorder.TOP, null, null));
 			sexPanel.setBounds(21, 72, 164, 48);
 			sexPanel.setLayout(null);
 			sexPanel.add(getRdbtnNewRadioButton());
@@ -222,6 +240,7 @@ public class SwingComponets extends JFrame {
 		}
 		return sexPanel;
 	}
+
 	private JButton getBtnSave() {
 		if (btnSave == null) {
 			btnSave = new JButton("Save");
@@ -229,20 +248,18 @@ public class SwingComponets extends JFrame {
 		}
 		return btnSave;
 	}
+
 	private JTable getStudTable() {
 		if (studTable == null) {
 			studTable = new JTable();
-			studTable.setModel(new DefaultTableModel(
-				new Object[][] {
-					
-				},
-				new String[] {
-					"ID", "NAME", "RollNo", "Faculty","Sex", "College Name"
-				}
-			));
+			studTable.setModel(new DefaultTableModel(new Object[][] {
+
+			}, new String[] { "ID", "NAME", "RollNo", "Faculty", "Sex",
+					"College Name" }));
 		}
 		return studTable;
 	}
+
 	private JScrollPane getScrollPane() {
 		if (scrollPane == null) {
 			scrollPane = new JScrollPane();
@@ -250,5 +267,13 @@ public class SwingComponets extends JFrame {
 			scrollPane.setViewportView(getStudTable());
 		}
 		return scrollPane;
+	}
+
+	private JSeparator getSeparator() {
+		if (separator == null) {
+			separator = new JSeparator();
+			separator.setBounds(10, 164, 678, 3);
+		}
+		return separator;
 	}
 }
