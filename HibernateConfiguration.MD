@@ -101,3 +101,4 @@ import org.hibernate.cfg.Configuration;
 		session.close();
 		----------------------------------------
 ```
+https://docs.jboss.org/hibernate/stable/annotations/reference/en/html/ch01.html
