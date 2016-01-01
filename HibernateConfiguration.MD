@@ -1,11 +1,7 @@
-Hibernate Configurations:
-1. ################POM.xml Dependencies######################
-
-
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
+#Hibernate Configurations:<br/>
+####1. POM.xml Dependencies
+```
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -24,10 +20,10 @@ Hibernate Configurations:
 			<version>5.1.10</version>
 		</dependency>
 	</dependencies>
-	
 </project>
-	-----------------------------
-	2. #############src/main/resources/hibernate.cfg.xml file:######################
+```
+####2. src/main/resources/hibernate.cfg.xml file:
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 
@@ -62,9 +58,10 @@ Hibernate Configurations:
 	</session-factory>
 
 </hibernate-configuration>
--------------------------------------------------------
-3. ###############	Get Hibernate Session:##############
-	import java.sql.Date;
+```
+####3. Get Hibernate Session:
+```
+import java.sql.Date;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -103,5 +100,4 @@ import org.hibernate.cfg.Configuration;
 
 		session.close();
 		----------------------------------------
-		
-		
+```
