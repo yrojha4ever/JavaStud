@@ -11,7 +11,7 @@ Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
 [7. Swing ](https://drive.google.com/open?id=0B3_WIs_SGCRzRFVEdzV3ekNNMWM)    &nbsp;&nbsp;&nbsp;[(Project here..)](https://github.com/yrojha4ever/StudManagProj) <br/>
 [8. Java Web Project(Jsp/Servlet)](https://github.com/yrojha4ever/JavaStudWeb) <br/>
 [10. Maven ] (https://drive.google.com/open?id=0B3_WIs_SGCRzaHpnR0VvdkNlVWc) <br/>
-[11. Hibernate ] (https://github.com/yrojha4ever/JavaStudHibernate) <br/>
+[11. Hibernate ] (https://drive.google.com/open?id=0B3_WIs_SGCRzRnlsYkhLTW1QTlk) &nbsp;&nbsp;&nbsp;[(Hibernate Project Here...)](https://github.com/yrojha4ever/JavaStudHibernate)<br/>
 ```
 ---------------------------------------------
 Assignment 1: http://www.ctae.ac.in/images/editorFiles/file/Lab%20Solutions%20of%20CSE_IT/java.pdf
