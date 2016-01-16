@@ -9,7 +9,7 @@ Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
 [5.Collections, Java Generics:](https://drive.google.com/open?id=0B3_WIs_SGCRzVDg0MV9qQmVjajQ)<br/>
 [6. JDBC ](https://drive.google.com/open?id=0B3_WIs_SGCRzX3JtTFVna05jUDQ)<br/>
 [7. Swing ](https://drive.google.com/open?id=0B3_WIs_SGCRzRFVEdzV3ekNNMWM)    &nbsp;&nbsp;&nbsp;[(Project here..)](https://github.com/yrojha4ever/StudManagProj) <br/>
-[8. Java Web Project(Jsp/Servlet)](https://github.com/yrojha4ever/JavaStudWeb) <br/>
+[8. Java EE/Servlet](https://drive.google.com/open?id=0B3_WIs_SGCRzcG1rQVRabTJSVG8) &nbsp;&nbsp;/&nbsp; [JSP](https://drive.google.com/open?id=0B3_WIs_SGCRzRnIySktZZTlsT2M) &nbsp;&nbsp;&nbsp;[Web Project(Jsp/Servlet)](https://github.com/yrojha4ever/JavaStudWeb) <br/>
 [10. Maven ] (https://drive.google.com/open?id=0B3_WIs_SGCRzaHpnR0VvdkNlVWc) <br/>
 [11. Hibernate ] (https://drive.google.com/open?id=0B3_WIs_SGCRzRnlsYkhLTW1QTlk) &nbsp;&nbsp;&nbsp;[(Hibernate Project Here...)](https://github.com/yrojha4ever/JavaStudHibernate)<br/>
 [11. Spring AOP<Dependency Injection> Project..] (https://github.com/yrojha4ever/JavaStudSpringDI) <br/>
