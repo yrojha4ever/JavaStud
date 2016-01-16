@@ -7,7 +7,7 @@ Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
 [3.Exception Handling,Inner Class, Date Time, Joda time, Reflection:] (https://drive.google.com/open?id=0B3_WIs_SGCRzdkk1WGpGSGxMdU0)<br/>
 [4.Multithreading, IO, Serialization:](https://drive.google.com/open?id=0B3_WIs_SGCRzTl9GbFZSdmZabE0)<br/>
 [5.Collections, Java Generics:](https://drive.google.com/open?id=0B3_WIs_SGCRzVDg0MV9qQmVjajQ)<br/>
-[6. JDBC ](https://drive.google.com/open?id=0B3_WIs_SGCRzX3JtTFVna05jUDQ)<br/>
+[6. JDBC ](https://drive.google.com/open?id=0B3_WIs_SGCRzU1Z2NUhaSkdXUE0)<br/>
 [7. Swing ](https://drive.google.com/open?id=0B3_WIs_SGCRzRFVEdzV3ekNNMWM)    &nbsp;&nbsp;&nbsp;[(Project here..)](https://github.com/yrojha4ever/StudManagProj) <br/>
 [8. Java EE/Servlet](https://drive.google.com/open?id=0B3_WIs_SGCRzcG1rQVRabTJSVG8) &nbsp;&nbsp;/&nbsp; [JSP](https://drive.google.com/open?id=0B3_WIs_SGCRzRnIySktZZTlsT2M) &nbsp;&nbsp;&nbsp;[Web Project(Jsp/Servlet)](https://github.com/yrojha4ever/JavaStudWeb) <br/>
 [10. Maven ] (https://drive.google.com/open?id=0B3_WIs_SGCRzaHpnR0VvdkNlVWc) <br/>
