@@ -14,6 +14,11 @@ Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
 [11. Hibernate ] (https://drive.google.com/open?id=0B3_WIs_SGCRzRnlsYkhLTW1QTlk) &nbsp;&nbsp;&nbsp;[(Hibernate Project Here...)](https://github.com/yrojha4ever/JavaStudHibernate)<br/>
 [11. Spring AOP<Dependency Injection> Project..] (https://github.com/yrojha4ever/JavaStudSpringDI) <br/>
 [12. Spring Web:] (https://drive.google.com/open?id=0B3_WIs_SGCRzMExNRlFJN24yT3c) &nbsp;&nbsp;&nbsp;[(Spring Web Mvc/Hibernate Project...)] (https://github.com/yrojha4ever/JavaStudSpringMVCWeb) <br/>
+
+---------------------------------------------
+:coffee: NEXT :fast_forward: [Industrial Java Development With Advance Web(Training)](IndustrialJava.MD) :coffee:
+---------------------------------------------
+
 ```
 ---------------------------------------------
 Assignment 1: http://www.ctae.ac.in/images/editorFiles/file/Lab%20Solutions%20of%20CSE_IT/java.pdf
