@@ -1,6 +1,6 @@
-Industrial Java Development With Advance Web (Training)
-Contact : email: yrojha4ever@hotmail.com
-Phone No: +977-9841664352
+Industrial Java Development With Advance Web (Training) <br/>
+Contact : email: yadabrajojha@gmail.com<br/>
+Phone No: +977-9841664352<br/>
 
 Syllabus:
 Intellij IDE
