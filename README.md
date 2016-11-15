@@ -115,3 +115,24 @@ a b pow(a,b)     a b pow(a,b)
 58. Define a thread to display the odd numbered element in an array of size 50.define another thread to display even numbered element in another array of size 50.Create instances of the above threads and run them.
 59. Write a program that executes three threads. first thread displays Good morning everyone second.second thread displays hello every two seconds and the third thread displays welcome inevery three seconds.create the three threads by extending the thread class.
 ```
+
+<hr/>
+```
+Java soft installation:
+
+32 bit/64 bit:
+1. Install JDK 1.8
+2. Install 7zip software
+3. spring-tool-suite:
+	>create C:\java-ws folder
+	> copy zip file "spring-tool-suite-3.8.1" into C:\java-ws folder
+	> extract it there using 7zip
+	
+	To run spring-tool-suite:
+	> go to sts-bundle>sts-3.8.1.RELEASE>STS.exe
+	> it will promt select workspace dialog?
+	  #give path of your workspace: C:\java-ws
+	  #tick checkbox (default)
+	  #OK
+	
+ ```
