@@ -136,3 +136,6 @@ Java soft installation:
 	  #OK
 	
  ```
+```
+[Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD)
+```
