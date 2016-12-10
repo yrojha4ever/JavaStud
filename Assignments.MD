@@ -4,3 +4,4 @@ Factory patteren: <br/> create currency interface implemnentation classs with al
 Q1: http://javarevisited.blogspot.com/2011/12/factory-design-pattern-java-example.html
 
 
+https://www.cs.utexas.edu/~scottm/cs307/codingSamples.htm
