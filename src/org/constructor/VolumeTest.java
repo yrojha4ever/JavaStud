@@ -1,4 +1,4 @@
-package org.javastud.studm.constructor;
+package org.constructor;
 
 public class VolumeTest {
 	public static void main(String[] args) {
