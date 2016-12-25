@@ -1,33 +1,26 @@
-
-/**
- * This class provide java courses.
- * @author ojhay
- * @since   JDK1.0
- */
+//formating: ctrl + shift + f
+// ctrl + space
+//main => ctrl + space
+//sysout => ctrl + space
 public class Course {
+	
+	public static final double PI = 3.14;
+
+	public String jCourse = "JAVA";
 
 	/*
-	  This is varible
-	  to hold 
-	  java course.
-	 */
-	private String jCourse = "JAVA"; //instance variable
-
-	public static final double PI = 3.14; //static variable
-
-	/*
-	 *	This is
-	 *  method 
-	 *  to show
-	 *  java
-	 *  course
+	 * This method
+	 * print java
+	 * course
 	 */
 	public void showJavaCourse() {
-		System.out.println("Course Name is: " + jCourse); //JAVA
-		
-		//This is java course.
-		int area = 500;   //Local variable.
-		
+		int r = 5;
+		System.out.println("Course name is: " + jCourse);
+	}
+
+	public void showAdvJava() {
+		System.out.println("Course name is: Advance Java");
 	}
 
 }
+

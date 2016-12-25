@@ -1,27 +1,18 @@
 
+
 public class MathTest {
-	public static void main(String[] args) {
-		double sq = Math.sqrt(4);
-		System.out.println(sq);
-		
+	public static void main(String[] args) { // main -> ctrl + space
+
+		System.out.println(Math.PI);
+
+		double y = Math.sqrt(4.0);
+		System.out.println("Sqrt of 4: " + y);
+
 		double z = Math.pow(2, 8);
 		System.out.println(z);
 
-		// sin90 = 1
-		/*
-		 * 180 deg = PI radian
-		 * 1 deg = PI/180
-		 * 90 deg = PI/180 * 90
-		 *     = PI/2
-		 */
-		double sin90 = Math.sin(Math.PI / 2);
-		System.out.println(sin90);
-		
-		double r = 9.8;
-		double roundUpVal = Math.round(r);
-		System.out.println("Round up: "+ roundUpVal);
-		
-		double floorVal = Math.floor(r);
-		System.out.println("After Round: " + floorVal); 
+		double tan45 = Math.tan(Math.PI / 4); // radian ( not degree)
+		System.out.println(tan45);
+
 	}
 }

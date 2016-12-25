@@ -1,16 +1,41 @@
 
+/**
+ * Class: Student
+ *	This class print
+ *  student course
+ *  information
+ *  
+ *  @author ojhay
+ *  @author ram
+ */
 public class Student {
 	public static void main(String[] args) {
-		
-		//No 1:
 		Course c = new Course();
 		c.showJavaCourse();
+		c.showAdvJava();
+		c.jCourse = "Java Script";
+		c.showJavaCourse();
 
-		// String s = c.jCourse;
-		// System.out.println(s);
+		/*
+		 ----------------
+		  Create object of class
+		  course and show it.
+		  -----------------
+		 */
+		System.out.println("=========");
+		Course c2 = new Course();
+		c2.showJavaCourse();
 		
-		//No 2: Direct Access: ClassName. 
-		System.out.println(Course.PI);
+		//print value of pi
+		System.out.println("==========");
+		System.out.println(Course.PI); //PI
 		
+		
+		String x = "Java";
+		if( x instanceof String){
+			System.out.println("X is String ");
+		}
+		
+
 	}
 }
