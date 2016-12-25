@@ -33,6 +33,15 @@ public class HashMapExample {
 			Map.Entry< Integer, String > me = iterator.next( );
 			System.out.print( "Key is: " + me.getKey( ) + " & Value is: " + me.getValue( ) + "\n" );
 		}
+		
+		/*Easy way*/
+		System.out.println("------------");
+		for(Entry<Integer, String> hm: hmap.entrySet()){
+			System.out.println(hm.getKey() + "  :  " + hm.getValue());
+		}
+		
+		//to string works even easier
+		System.out.println(hmap);
 
 	}
 }
