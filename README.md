@@ -18,7 +18,7 @@ Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
 ---------------------------------------------
 :coffee: NEXT :fast_forward: [Industrial Java Development With Advance Web(Training)](IndustrialJava.MD) :coffee:
 ---------------------------------------------
-<br/>[Angular JS APP] (https://github.com/yrojha4ever/JavaStudSpringMVCWeb)<br/>
+<br/>[Angular JS APP] (https://github.com/yrojha4ever/angularapp)<br/>
 
 ```
 ---------------------------------------------
