@@ -138,4 +138,6 @@ Java soft installation:
 	
  ```
 
-[Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD)
+[Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD) <br/>
+Some good Links: <br/>
+[Designing Patterens for Human] (https://github.com/kamranahmedse/design-patterns-for-humans)
