@@ -151,11 +151,13 @@ Then you just install Maven using:
 `brew install maven` <br/>
 PS: If you got a 404 error, try doing a brew update just before
 
-=================================
+================================= <br/>
 Install Maven in Linux Ubuntu: <br/>
 `sudo apt-get install maven`
  ```
 
+
+<hr>
 [Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD) <br/>
 Some good Links: <br/>
 [Designing Patterens for Human] (https://github.com/kamranahmedse/design-patterns-for-humans)
