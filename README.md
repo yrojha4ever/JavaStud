@@ -137,6 +137,24 @@ Java soft installation:
 	  #OK
 	
  ```
+ 
+ ```
+ Install Maven in Mac:
+
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+
+Alternatively, I recommend installing Homebrew for these kinds of utilities.
+
+Then you just install Maven using:
+
+`brew install maven`
+PS: If you got a 404 error, try doing a brew update just before
+
+=================================
+Install Maven in Linux Ubuntu:
+`sudo apt-get install maven`
+ ```
 
 [Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD) <br/>
 Some good Links: <br/>
