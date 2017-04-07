@@ -148,11 +148,11 @@ Alternatively, I recommend installing Homebrew for these kinds of utilities.
 
 Then you just install Maven using:
 
-`brew install maven`
+`brew install maven` <br/>
 PS: If you got a 404 error, try doing a brew update just before
 
 =================================
-Install Maven in Linux Ubuntu:
+Install Maven in Linux Ubuntu: <br/>
 `sudo apt-get install maven`
  ```
 
