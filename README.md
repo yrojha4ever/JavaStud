@@ -155,7 +155,12 @@ PS: If you got a 404 error, try doing a brew update just before
 Install Maven in Linux Ubuntu: <br/>
 `sudo apt-get install maven`
  ```
-
+ 
+ ```
+ <strong>How to install lombok in mac:</strong> <br/>
+ Rename the file "STS.EXE" to "sts.exe" under ../sts-bundle/sts.app/Contents/MacOS/. <br/>
+And then run java -jar lomobok.jar and select the STS.ini file under ../sts-bundle/sts.app/Contents/Eclipse
+```
 
 <hr>
 [Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD) <br/>
