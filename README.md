@@ -117,21 +117,17 @@ a b pow(a,b)     a b pow(a,b)
 	  #OK	
  ```
  
- ### Install Maven in Mac:
- 
- ```
+ ### Install Maven in Mac: 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 Alternatively, I recommend installing Homebrew for these kinds of utilities.
 
 Then you just install Maven using:
-
 `brew install maven` <br/>
 PS: If you got a 404 error, try doing a brew update just before
 
 *Install Maven in Linux Ubuntu:*
 `sudo apt-get install maven`
- ```
  
  ### How to install lombok in mac:
  
