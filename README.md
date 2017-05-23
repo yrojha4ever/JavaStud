@@ -129,18 +129,17 @@ Then you just install Maven using:
 `brew install maven` <br/>
 PS: If you got a 404 error, try doing a brew update just before
 
-=================================
-Install Maven in Linux Ubuntu: 
+*Install Maven in Linux Ubuntu:*
 `sudo apt-get install maven`
  ```
  
+ ### How to install lombok in mac:
+ 
  ```
- <strong>How to install lombok in mac:</strong> <br/>
  Rename the file "STS.EXE" to "sts.exe" under ../sts-bundle/sts.app/Contents/MacOS/. 
 And then run java -jar lomobok.jar and select the STS.ini file under ../sts-bundle/sts.app/Contents/Eclipse
 ```
 
-<hr>
 [Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD) <br/>
 Some good Links: <br/>
 [Designing Patterens for Human] (https://github.com/kamranahmedse/design-patterns-for-humans)
