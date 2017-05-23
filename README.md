@@ -1,6 +1,6 @@
 # JavaStud
-This is java tutorial example series.  
-Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
+This is java tutorial example series. Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):  
+
 [1.Introduction:](https://drive.google.com/open?id=0B3_WIs_SGCRzbDdKbTVoZHZUMGs)<br/>
 [2.OOP:](https://drive.google.com/open?id=0B3_WIs_SGCRzZHk2MmNsVkxqa1U)<br/>
 
