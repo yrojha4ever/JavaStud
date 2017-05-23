@@ -15,38 +15,6 @@ Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
 [11. Spring AOP<Dependency Injection> Project..] (https://github.com/yrojha4ever/JavaStudSpringDI) <br/>
 [12. Spring Web:] (https://drive.google.com/open?id=0B3_WIs_SGCRzMExNRlFJN24yT3c) &nbsp;&nbsp;&nbsp;[(Spring Web Mvc/Hibernate Project...)] (https://github.com/yrojha4ever/JavaStudSpringMVCWeb) <br/>
 --------------------------------------------
-Some Extra course along with Spring MVC WEB! <br/>
-```
-12.1 [Angular JS APP] (https://github.com/yrojha4ever/angularapp)<br/>
-```
-12.2 [Design Pattern]
-Factory Pattern
-Singleton Pattern
-MVC Pattern
-Builder Pattern
-Decorator Pattern
-```
-```
-12.3 [Java - 8]
-Lambda Expressions
-Default methods
-Functional interfaces
-Streams
-Filters
-Date-Time Package
-```
-```
-12.4 [JUnit]
-Assertions
-assertThat
-Execution order
-@Test
-@BeforeClass
-@AfterClass
-@Before
-@After
-```
-<hr/>
 ---------------------------------------------
 :coffee: NEXT :fast_forward: [Industrial Java Development With Advance Web(Training)](IndustrialJava.MD) :coffee:
 ---------------------------------------------
