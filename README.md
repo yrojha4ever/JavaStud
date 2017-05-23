@@ -98,10 +98,9 @@ a b pow(a,b)     a b pow(a,b)
 59. Write a program that executes three threads. first thread displays Good morning everyone second.second thread displays hello every two seconds and the third thread displays welcome inevery three seconds.create the three threads by extending the thread class.
 ```
 
-<hr/>
-```
-Java soft installation:
+### Java soft installation
 
+```
 32 bit/64 bit:
 1. Install JDK 1.8
 2. Install 7zip software
@@ -115,15 +114,13 @@ Java soft installation:
 	> it will promt select workspace dialog?
 	  #give path of your workspace: C:\java-ws
 	  #tick checkbox (default)
-	  #OK
-	
+	  #OK	
  ```
  
+ ### Install Maven in Mac:
+ 
  ```
- Install Maven in Mac:
-
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
 
 Alternatively, I recommend installing Homebrew for these kinds of utilities.
 
@@ -132,14 +129,14 @@ Then you just install Maven using:
 `brew install maven` <br/>
 PS: If you got a 404 error, try doing a brew update just before
 
-================================= <br/>
-Install Maven in Linux Ubuntu: <br/>
+=================================
+Install Maven in Linux Ubuntu: 
 `sudo apt-get install maven`
  ```
  
  ```
  <strong>How to install lombok in mac:</strong> <br/>
- Rename the file "STS.EXE" to "sts.exe" under ../sts-bundle/sts.app/Contents/MacOS/. <br/>
+ Rename the file "STS.EXE" to "sts.exe" under ../sts-bundle/sts.app/Contents/MacOS/. 
 And then run java -jar lomobok.jar and select the STS.ini file under ../sts-bundle/sts.app/Contents/Eclipse
 ```
 
