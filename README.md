@@ -187,3 +187,4 @@ And then run java -jar lomobok.jar and select the STS.ini file under ../sts-bund
 [Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD) <br/>
 Some good Links: <br/>
 [Designing Patterens for Human] (https://github.com/kamranahmedse/design-patterns-for-humans)
+[Java Exercism] (http://exercism.io/languages/java/about)
