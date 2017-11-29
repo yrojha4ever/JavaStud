@@ -378,6 +378,40 @@ assert doubled == [2, 4, 6]
 //256
 //512
 
+//==========Gradle inside .gradle file========================
+task hello{
+	doFirst {
+		println "hello First!"
+	}
+	doLast {
+		println "Helo Last!"
+	}
+}
+//---------dependsOn--
+task hell << {
+	println "Hell with << ie last"
+}
+task respond(dependsOn: hell) << {
+	println 'GoodBye Hell!'
+}
+//---------dependsOn--alternaet=---
+task pilot  {
+	println "Configuration" //it executes first due to 2 step execute
+	doLast{
+		println "Pilot! last"
+	}
+}
+task replyPilot << {
+	println "Goodbye Pilot!"
+}
+
+replyPilot.dependsOn pilot
+//---------------android. in android------
+angroid.applicationVariants.all{varient ->
+	println variant.name
+}
+
+
 //---Introduction to Groovy by Daniel Lew
 //---Gradle Summit: Groovy for Gradle
 ```
