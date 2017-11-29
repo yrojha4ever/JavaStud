@@ -1,3 +1,4 @@
+```
 class Thing {
     String name
 
@@ -379,3 +380,4 @@ assert doubled == [2, 4, 6]
 
 //---Introduction to Groovy by Daniel Lew
 //---Gradle Summit: Groovy for Gradle
+```
