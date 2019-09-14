@@ -1,5 +1,5 @@
 # JavaStud
-This is java tutorial example series. Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):  
+This is java tutorial example series. Java Tutorial(http://yro-tech.blogspot.com/ for more java resource, I have strated new website https://greenqbit.com , will release latest updates, videos soon.  
 
 [1.Introduction:](https://drive.google.com/open?id=0B3_WIs_SGCRzbDdKbTVoZHZUMGs)<br/>
 [2.OOP:](https://drive.google.com/open?id=0B3_WIs_SGCRzZHk2MmNsVkxqa1U)<br/>
